@@ -11,11 +11,14 @@ admin = name;
 alert(admin);
 
 //Task 2
-let planetName = 'Earth';
-let siteVisitorName = 'Bob';
+const planetName = 'Earth';
+const siteVisitorName = 'Bob';
 
 //Task 3
 let value = "10" + 10;
-console.log(value);
+console.log(value); //1010
+console.log(typeof value); //тип string
+//"10" в даному випадку є рядком, тому число 10, яке додається до рядка "10",
+// теж перетворюється на рядок. Об'єднання цих двох рядків = 1010.
 
 
