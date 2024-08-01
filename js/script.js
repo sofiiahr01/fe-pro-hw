@@ -1,14 +1,14 @@
 'use strict';
 
-let operand1 = prompt("Введіть перший операнд");
-let operand2 = prompt("Введіть другий операнд");
+let x = prompt("Введіть перший операнд");
+let y = prompt("Введіть другий операнд");
 
-let sum = +operand1 + +operand2;
-let difference = operand1 - operand2;
-let multiplication = operand1 * operand2;
-let division = operand1 / operand2;
+let sum = +x + +y;
+let difference = x - y;
+let multiplication = x * y;
+let division = x / y;
 
-console.log(`Результат: ${operand1} + ${operand2} = ${sum}`);
-console.log(`Результат: ${operand1} - ${operand2} = ${difference}`);
-console.log(`Результат: ${operand1} * ${operand2} = ${multiplication}`);
-console.log(`Результат: ${operand1} / ${operand2} = ${division}`);
+console.log(`Результат: ${x} + ${y} = ${sum}`);
+console.log(`Результат: ${x} - ${y} = ${difference}`);
+console.log(`Результат: ${x} * ${y} = ${multiplication}`);
+console.log(`Результат: ${x} / ${y} = ${division}`);
